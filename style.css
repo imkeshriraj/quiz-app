@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url('./countImg.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top:-10rem;
+
+}
+.big-text{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
