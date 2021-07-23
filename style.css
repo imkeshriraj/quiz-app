@@ -1,39 +1,57 @@
 *{box-sizing: border-box;}
 
 body{
-    background-image: url('./countImg.jpg');
-    background-size: cover;
-    background-position: center center;
+    background: linear-gradient(0deg, rgb(118, 243, 250), rgb(58, 78, 255));
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+}
+.quiz-container{
+    background-color: #fff;
+    width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 2px rgba(100,100,100,0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+
+}
+h2{
+    margin: 0;
+}
+ul li{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+ul{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    list-style: none;
+    padding: 0;
+
+}
+button{
+    background-color:#8e44ad ;
+    display: block;
+    width: 100%;
+    padding: 1rem;
     color: #fff;
-}
-
-.countdown-container{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-h1{
-    font-weight: normal;
-    font-size: 4rem;
-    margin-top:-10rem;
-
-}
-.big-text{
-    font-size: 6rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0 2rem;
-}
-.countdown-el{
-    text-align: center;
-}
-.countdown-el span{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
+    border: none;
+cursor: pointer;
+}
+button:hover{
+    background-color: #9b24ce;
+}
+
+ul li label{
+    cursor: pointer;
 }
