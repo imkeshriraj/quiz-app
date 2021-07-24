@@ -23,7 +23,9 @@ body{
 
 }
 h2{
+    padding: 2rem;
     margin: 0;
+    text-align: center;
 }
 ul li{
     margin: 1rem 0;
@@ -49,7 +51,14 @@ button{
 cursor: pointer;
 }
 button:hover{
-    background-color: #9b24ce;
+background-color: #732d91;
+
+}
+
+button:focus{
+background-color: #a606eb;
+outline: none;
+
 }
 
 ul li label{
