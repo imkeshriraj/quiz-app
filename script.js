@@ -1,26 +1,26 @@
 const quizData=[
     {
-        question:'How old Dumboldor was ?',
-        a:'10',
-        b:'100',
-        c:'130',
-        d:'forever',
-        correct:'c'
+        question:'Java Script is a _____ Language ?',
+        a:'Markup',
+        b:'Scripting',
+        c:'Styling',
+        d:'Not a language',
+        correct:'b'
     },
     {
-        question:'How old Hagreed was ?',
-        a:'30',
-        b:'440',
-        c:'130',
-        d:'forever',
-        correct:'b'
+        question:'Java script is a ______ threaded?',
+        a:'Single',
+        b:'Multiple',
+        c:'Double',
+        d:'Quad',
+        correct:'a'
     },{
-        question:'How old Abafrod was ?',
-        a_1:'10',
-        b:'1070',
-        c:'130',
-        d:'forever',
-        correct:'d'
+        question:'Javascript follows ...?',
+        a_1:'Synchronous',
+        b:'ASynchronous',
+        c:'both',
+        d:'Non of these',
+        correct:'b'
     }
 ];
 
